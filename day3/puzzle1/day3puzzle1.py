@@ -1,5 +1,4 @@
 import string
-from pprint import pprint
 
 priorities = dict.fromkeys(string.ascii_lowercase) | dict.fromkeys(string.ascii_uppercase)
 for i, key in enumerate(priorities):
